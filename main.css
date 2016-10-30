@@ -1,24 +1,26 @@
 html, body {
   margin: 0;
   background-color: #242544;
+  color: #e6e1de;
   text-align: center;
   font-family: sans-serif;
 }
 
-main {
+header {
   margin-top: 50px;
+}
+
+main {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 10px;
 }
 
 .logo {
   width: 80%;
   max-width: 400px;
-  opacity: 1.0;
-	transition: .5s ease-in-out;
-}
-
-.logo:hover {
-  opacity: 0.75;
-  transition: all 0.5s;
 }
 
 .link-list {
@@ -31,12 +33,12 @@ main {
   float: left;
   list-style: none;
   margin: 0 1rem;
-  font-size: 36px;
+  font-size: 42px;
 }
 
 .link-list a {
-  color: #e6e1de;
-  opacity: 1.0;
+  color: inherit;
+  opacity: inherit;
   transition: all 0.5s;
 }
 
