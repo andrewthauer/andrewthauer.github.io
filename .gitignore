@@ -1,2 +1,3 @@
-# Files to keep
-!.gitkeep
+.DS_Store
+.env*
+!.env.example
